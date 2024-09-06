@@ -1,0 +1,26 @@
+[package]
+name = "immersivelogseq-graph-server"
+version = "0.1.0"
+authors = ["Your Name <your.email@example.com>"]
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.12", features = ["full"] }
+warp = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+wgpu = "0.10"
+futures = "0.3"
+dotenv = "0.15"
+log = "0.4"
+env_logger = "0.9"
+anyhow = "1.0"
+octocrab = "0.10"
+regex = "1.5"
+base64 = "0.13"
+
+[build-dependencies]
+wgsl = "0.1"
+
+[profile.release]
+opt-level = 3

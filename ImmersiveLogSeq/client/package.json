@@ -1,0 +1,25 @@
+{
+    "name": "immersivelogseq-client",
+    "version": "1.0.0",
+    "description": "Client-side application for immersive LogSeq WebXR graph visualization",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "webpack serve --mode development",
+      "build": "webpack --mode production"
+    },
+    "dependencies": {
+      "three": "^0.135.0",
+      "marked": "^3.0.8"
+    },
+    "devDependencies": {
+      "webpack": "^5.51.1",
+      "webpack-cli": "^4.8.0",
+      "webpack-dev-server": "^4.1.0",
+      "babel-loader": "^8.2.2",
+      "@babel/core": "^7.15.0",
+      "@babel/preset-env": "^7.15.0"
+    },
+    "author": "Your Name <your.email@example.com>",
+    "license": "MIT"
+  }
+  

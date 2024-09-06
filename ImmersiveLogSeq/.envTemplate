@@ -1,0 +1,8 @@
+# .env file example
+GITHUB_OWNER=your-github-username
+GITHUB_REPO=your-github-repo
+GITHUB_DIRECTORY=path-to-your-markdown-directory
+GITHUB_ACCESS_TOKEN=your-github-access-token
+RAGFLOW_BASE_URL=https://api.ragflow.com
+RAGFLOW_API_KEY=your-ragflow-api-key
+PORT=8443
